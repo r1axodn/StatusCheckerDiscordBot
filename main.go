@@ -103,6 +103,7 @@ func messageCreate(s *discordgo.Session, msg *discordgo.MessageCreate) {
 			"415" : "Unsupported media type.",
 			"416" : "Requested range is not satisfiable.",
 			"417" : "Expectation failed.",
+                        "418" : "I'm a teapot
 			"422" : "Requested sended without errors, but has grammar error.",
 			"429" : "Too many requests.",
 			"500" : "Internal server error.",
